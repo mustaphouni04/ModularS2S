@@ -1,0 +1,7 @@
+add_executable(test_sentence_buffer test_sentence_buffer.cpp)
+target_link_libraries(test_sentence_buffer PRIVATE assistant_core)
+add_test(NAME sentence_buffer COMMAND test_sentence_buffer)
+
+add_executable(test_config test_config.cpp)
+target_link_libraries(test_config PRIVATE assistant_core)
+add_test(NAME config COMMAND test_config)

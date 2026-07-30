@@ -1,0 +1,20 @@
+llm:
+  endpoint: http://localhost:11434
+  model: qwen3:4b
+  system_prompt: "You are a helpful, concise voice assistant. Keep answers short and conversational."
+
+stt:
+  endpoint: 127.0.0.1:10300
+  language: en
+
+tts:
+  endpoint: 127.0.0.1:10200
+  voice: en_US-lessac-medium
+
+audio:
+  sample_rate: 16000
+  vad_rms_threshold: 0.02
+  vad_trailing_silence_ms: 700
+
+input:
+  mode: typed   # typed = hands-needed (keyboard, no mic). voice = hands-free (mic + VAD).

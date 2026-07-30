@@ -1,0 +1,59 @@
+# Brings up the three GPU-accelerated sidecar services the assistant talks
+# to over localhost. Built from images produced by jetson-containers
+# (../../jetson-containers) - run `jetson-containers build <pkg>` first if
+# the exact tag isn't available on Docker Hub for your L4T version.
+#
+# The assistant binary itself is NOT containerized here: it needs direct
+# ALSA/PortAudio access to the Jetson's mic/speaker and runs natively on the
+# host (see ../README.md).
+#
+# Usage:
+#   docker compose -f docker-compose.jetson.yaml up -d
+name: modular-s2s
+
+services:
+  ollama:
+    image: dustynv/ollama:r36.4.0
+    container_name: ollama
+    restart: unless-stopped
+    runtime: nvidia
+    network_mode: host
+    init: false
+    volumes:
+      - ollama-models:/data/models/ollama
+      - /etc/localtime:/etc/localtime:ro
+
+  wyoming-whisper:
+    image: dustynv/wyoming-whisper:latest-r36.2.0
+    container_name: wyoming-whisper
+    restart: unless-stopped
+    runtime: nvidia
+    network_mode: host
+    init: false
+    environment:
+      WHISPER_PORT: "10300"
+      WHISPER_MODEL: "base-int8"
+      WHISPER_LANGUAGE: "en"
+    volumes:
+      - whisper-models:/share/whisper
+      - /etc/localtime:/etc/localtime:ro
+
+  wyoming-piper:
+    image: dustynv/wyoming-piper:master-r36.2.0
+    container_name: wyoming-piper
+    restart: unless-stopped
+    runtime: nvidia
+    network_mode: host
+    init: false
+    environment:
+      PIPER_PORT: "10200"
+      PIPER_VOICE: "en_US-lessac-medium"
+      PIPER_USE_CUDA: "true"
+    volumes:
+      - piper-models:/data/models/piper
+      - /etc/localtime:/etc/localtime:ro
+
+volumes:
+  ollama-models:
+  whisper-models:
+  piper-models:
