@@ -11,8 +11,9 @@
 namespace assistant::util {
 
 // One Wyoming protocol event: a JSON header line, optionally followed by a
-// raw binary payload whose length is carried in the header as
-// "payload_length". See https://github.com/rhasspy/wyoming
+// separate JSON "data" document (length in the header as "data_length"),
+// optionally followed by a raw binary payload (length in the header as
+// "payload_length"). See https://github.com/rhasspy/wyoming
 struct WyomingEvent {
     std::string type;
     nlohmann::json data = nlohmann::json::object();

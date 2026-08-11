@@ -1,0 +1,35 @@
+Start testing: Jul 30 21:15 CEST
+----------------------------------------------------------
+Unable to find executable: /home/mustapha/Desktop/ModularS2S/assistant/build/tests/test_sentence_buffer
+1/2 Testing: sentence_buffer
+1/2 Test: sentence_buffer
+Command: ""
+Directory: /home/mustapha/Desktop/ModularS2S/assistant/build/tests
+"sentence_buffer" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sentence_buffer" end time: Jul 30 21:15 CEST
+"sentence_buffer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/mustapha/Desktop/ModularS2S/assistant/build/tests/test_config
+2/2 Testing: config
+2/2 Test: config
+Command: ""
+Directory: /home/mustapha/Desktop/ModularS2S/assistant/build/tests
+"config" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"config" end time: Jul 30 21:15 CEST
+"config" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 30 21:15 CEST

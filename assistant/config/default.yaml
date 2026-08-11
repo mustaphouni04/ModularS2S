@@ -1,6 +1,6 @@
 llm:
   endpoint: http://localhost:11434
-  model: qwen3:4b
+  model: llama3.2:latest
   system_prompt: "You are a helpful, concise voice assistant. Keep answers short and conversational."
 
 stt:

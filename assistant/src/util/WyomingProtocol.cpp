@@ -100,10 +100,16 @@ std::string WyomingConnection::read_line() {
 }
 
 void WyomingConnection::write_event(const WyomingEvent& event) {
+    // The wire format is: a JSON header line, then (if data_length is set)
+    // that many bytes of a *separate* JSON document holding "data", then
+    // (if payload_length is set) that many raw payload bytes. "data" is
+    // never embedded inline in the header itself - see read_event().
+    std::string data_json;
     nlohmann::json header;
     header["type"] = event.type;
     if (!event.data.empty()) {
-        header["data"] = event.data;
+        data_json = event.data.dump();
+        header["data_length"] = data_json.size();
     }
     if (event.has_payload) {
         header["payload_length"] = event.payload.size();
@@ -112,6 +118,9 @@ void WyomingConnection::write_event(const WyomingEvent& event) {
     std::string header_line = header.dump() + "\n";
     write_all(reinterpret_cast<const uint8_t*>(header_line.data()), header_line.size());
 
+    if (!data_json.empty()) {
+        write_all(reinterpret_cast<const uint8_t*>(data_json.data()), data_json.size());
+    }
     if (event.has_payload && !event.payload.empty()) {
         write_all(event.payload.data(), event.payload.size());
     }
@@ -123,7 +132,17 @@ WyomingEvent WyomingConnection::read_event() {
 
     WyomingEvent event;
     event.type = header.at("type").get<std::string>();
-    if (header.contains("data") && !header["data"].is_null()) {
+
+    if (header.contains("data_length") && !header["data_length"].is_null()) {
+        size_t data_len = header["data_length"].get<size_t>();
+        if (data_len > 0) {
+            std::string data_json(data_len, '\0');
+            read_exact(reinterpret_cast<uint8_t*>(data_json.data()), data_len);
+            event.data = nlohmann::json::parse(data_json);
+        }
+    } else if (header.contains("data") && !header["data"].is_null()) {
+        // Some servers embed "data" directly in the header instead of as a
+        // separate length-prefixed block; accept that form too.
         event.data = header["data"];
     }
 

@@ -70,8 +70,17 @@ std::string OllamaClient::chat_stream(
         return true;
     };
 
-    httplib::Headers headers = {{"Content-Type", "application/json"}};
-    auto res = cli.Post("/api/chat", headers, body.dump(), "application/json", content_receiver);
+    httplib::Request req;
+    req.method = "POST";
+    req.path = "/api/chat";
+    req.headers = {{"Content-Type", "application/json"}};
+    req.body = body.dump();
+    req.content_receiver = [&content_receiver](const char* data, size_t len, uint64_t /*offset*/,
+                                                uint64_t /*total_length*/) {
+        return content_receiver(data, len);
+    };
+
+    auto res = cli.send(req);
 
     if (cancelled) {
         spdlog::info("ollama: stream cancelled");

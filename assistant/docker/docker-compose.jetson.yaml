@@ -19,6 +19,8 @@ services:
     runtime: nvidia
     network_mode: host
     init: false
+    tty: true
+    stdin_open: true
     volumes:
       - ollama-models:/data/models/ollama
       - /etc/localtime:/etc/localtime:ro
@@ -45,10 +47,32 @@ services:
     runtime: nvidia
     network_mode: host
     init: false
-    environment:
-      PIPER_PORT: "10200"
-      PIPER_VOICE: "en_US-lessac-medium"
-      PIPER_USE_CUDA: "true"
+    # This image is JetPack-6/CUDA-12.2 vintage; onnxruntime's CUDA execution
+    # provider hard-crashes on this host's JetPack 7.2/CUDA 13.2 stack
+    # (CUDA failure 801: operation not supported, from cudaSetDevice). The
+    # image's entrypoint script hardcodes `--cuda` regardless of the
+    # PIPER_USE_CUDA env var (that var isn't wired to anything in this
+    # build), so the only way to force CPU is to bypass the s6-overlay
+    # entrypoint and invoke wyoming_piper directly without --cuda. CPU
+    # synthesis measured at real-time factor ~0.18 (5x faster than
+    # real-time) for short sentences, so it's not a practical bottleneck.
+    entrypoint: ["python3", "-m", "wyoming_piper"]
+    command:
+      - "--piper=/opt/piper/build/piper"
+      - "--uri=tcp://0.0.0.0:10200"
+      - "--length-scale=1.0"
+      - "--noise-scale=0.667"
+      - "--noise-w=0.333"
+      - "--speaker=0"
+      - "--voice=en_US-lessac-medium"
+      - "--max-piper-procs=1"
+      - "--espeak-data-dir=/usr/local/share/espeak-ng-data"
+      - "--data-dir=/data"
+      - "--data-dir=/share/piper"
+      - "--data-dir=/data/models/piper"
+      - "--download-dir=/data/models/piper"
+      - "--update-voices"
+      - "--debug"
     volumes:
       - piper-models:/data/models/piper
       - /etc/localtime:/etc/localtime:ro

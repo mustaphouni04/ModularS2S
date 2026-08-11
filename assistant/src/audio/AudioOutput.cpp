@@ -30,7 +30,7 @@ void AudioOutput::open_stream_locked() {
     output_params.channelCount = channels_;
     output_params.sampleFormat = paInt16;
     output_params.suggestedLatency =
-        Pa_GetDeviceInfo(output_params.device)->defaultLowOutputLatency;
+        Pa_GetDeviceInfo(output_params.device)->defaultHighOutputLatency;
     output_params.hostApiSpecificStreamInfo = nullptr;
 
     PaError err = Pa_OpenStream(&stream_, nullptr, &output_params, sample_rate_,
@@ -123,7 +123,7 @@ void AudioOutput::wait_until_drained() {
     queue_cv_.wait(lock, [this] { return queue_.empty() && !playing_; });
 }
 
-bool AudioOutput::is_active() {
+bool AudioOutput::is_active() const {
     std::lock_guard<std::mutex> lock(queue_mutex_);
     return playing_ || !queue_.empty();
 }

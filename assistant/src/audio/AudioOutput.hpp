@@ -46,7 +46,7 @@ public:
 
     // True while there is queued or in-flight audio. Used by voice mode to
     // decide whether to mute the mic's VAD (see Config::allow_barge_in).
-    bool is_active();
+    bool is_active() const;
 
 private:
     void writer_loop();
@@ -61,7 +61,7 @@ private:
     std::mutex stream_mutex_;
 
     std::thread writer_thread_;
-    std::mutex queue_mutex_;
+    mutable std::mutex queue_mutex_;
     std::condition_variable queue_cv_;
     std::deque<std::vector<uint8_t>> queue_;
     std::atomic<bool> running_{false};

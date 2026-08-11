@@ -1,0 +1,326 @@
+[
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/config/Config.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/config/Config.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/config/Config.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/config/Config.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/util/WyomingProtocol.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/util/WyomingProtocol.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/util/WyomingProtocol.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/util/WyomingProtocol.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/util/PortAudioGuard.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/util/PortAudioGuard.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/util/PortAudioGuard.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/util/PortAudioGuard.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/llm/OllamaClient.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/llm/OllamaClient.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/llm/OllamaClient.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/llm/OllamaClient.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/conversation/SentenceBuffer.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/conversation/SentenceBuffer.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/conversation/SentenceBuffer.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/conversation/SentenceBuffer.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/conversation/ConversationManager.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/conversation/ConversationManager.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/conversation/ConversationManager.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/conversation/ConversationManager.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/tts/WyomingTTSClient.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/tts/WyomingTTSClient.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/tts/WyomingTTSClient.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/tts/WyomingTTSClient.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/stt/WyomingSTTClient.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/stt/WyomingSTTClient.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/stt/WyomingSTTClient.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/stt/WyomingSTTClient.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/audio/AudioOutput.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/audio/AudioOutput.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/audio/AudioOutput.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/audio/AudioOutput.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/audio/AudioInput.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/audio/AudioInput.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/audio/AudioInput.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/audio/AudioInput.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/assistant/TypedInputSource.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/assistant/TypedInputSource.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/assistant/TypedInputSource.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/assistant/TypedInputSource.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/assistant/VoiceInputSource.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/assistant/VoiceInputSource.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/assistant/VoiceInputSource.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/assistant/VoiceInputSource.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant_core.dir/src/assistant/Assistant.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/assistant/Assistant.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/assistant/Assistant.cpp",
+  "output": "CMakeFiles/assistant_core.dir/src/assistant/Assistant.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/assistant.dir/src/main.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/src/main.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/src/main.cpp",
+  "output": "CMakeFiles/assistant.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/contrib/graphbuilder.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/contrib/graphbuilder.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/contrib/graphbuilderadapter.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/contrib/graphbuilderadapter.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/binary.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/binary.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/convert.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/convert.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/depthguard.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/depthguard.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/directives.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/directives.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emit.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emit.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitfromevents.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitfromevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitter.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitter.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitterstate.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitterstate.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitterutils.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/emitterutils.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/exceptions.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/exceptions.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/exp.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/exp.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/memory.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/memory.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/node.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/node.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/node.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/node_data.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/node_data.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/nodebuilder.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/nodebuilder.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/nodeevents.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/nodeevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/null.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/null.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/null.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/ostream_wrapper.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/ostream_wrapper.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/parse.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/parse.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/parser.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/parser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/regex_yaml.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/regex_yaml.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scanner.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scanner.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scanscalar.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scanscalar.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scantag.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scantag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scantoken.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/scantoken.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/simplekey.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/simplekey.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/singledocparser.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/singledocparser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/stream.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/stream.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/tag.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/src/tag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/async.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -O2 -g -DNDEBUG -std=c++20 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/tests",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/test_sentence_buffer.dir/test_sentence_buffer.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/tests/test_sentence_buffer.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/tests/test_sentence_buffer.cpp",
+  "output": "tests/CMakeFiles/test_sentence_buffer.dir/test_sentence_buffer.cpp.o"
+},
+{
+  "directory": "/home/mustapha/Desktop/ModularS2S/assistant/build/tests",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_ZLIB_SUPPORT -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE -I/home/mustapha/Desktop/ModularS2S/assistant/src -I/home/mustapha/Desktop/ModularS2S/assistant/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/json-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/yaml-cpp-src/include -I/home/mustapha/Desktop/ModularS2S/assistant/build/_deps/spdlog-src/include -isystem /home/mustapha/Desktop/ModularS2S/assistant/build/_deps/httplib-src -O2 -g -DNDEBUG -std=gnu++20 -pthread -o CMakeFiles/test_config.dir/test_config.cpp.o -c /home/mustapha/Desktop/ModularS2S/assistant/tests/test_config.cpp",
+  "file": "/home/mustapha/Desktop/ModularS2S/assistant/tests/test_config.cpp",
+  "output": "tests/CMakeFiles/test_config.dir/test_config.cpp.o"
+}
+]
